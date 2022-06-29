@@ -1,10 +1,8 @@
-const findSum = function(array) {
+const findSum = function(userInput) {
   let sum = 0;
 
-  for (let i = 0; i < array.length; i++) {
-    sum += array[i];
+  for (let i = 0; i < userInput.length; i++) {
+    sum += userInput[i];
   }
-  console.log(sum)
+  return sum 
 };
-let numbers = [2, 4, 6, 10, 10]
-console.log(findSum(numbers))
